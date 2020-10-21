@@ -1,0 +1,40 @@
+---
+title: "Oct 15th Market Update"
+author: "Ruei-Hung Chen"
+date: "15/10/2020"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Auto Industry Quarterly Sales 
+```{r, echo=FALSE, include = F}
+library(ggplot2)
+library(tidyverse)
+library(reshape2)
+library(ggthemes)
+
+```
+
+#Data copied from the internet
+```{r, echo= FALSE}
+BMW <- c(73888, 82551,	75987,	92399, 62152, 50956, 68439)
+Crysler <- c(31591,32831,	29544,33006,29945,13857, 31869)
+Ford <- c(557884,	613098,	548070,	565373, 489051,	411035,	521530)
+Honda <- c(333402,370026,	390168,	357389,	270253,	266044,	338769)
+Tesla <- c(30600,	53300, 54700,56525,52800,36800,	139300)
+
+
+
+
+
+```
+
+```{r, echo= FALSE}
+df <- data.frame(quarters = 1:7, BMW, Crysler, Ford, Honda, Tesla)
+df <- melt(df , id.vars = 'quarters', variable.name = 'companys')
+ggplot(df, aes(quarters,value)) + geom_line(aes(colour = companys)) + 
+  xlab("Quarters Since 2019")+ ylab("Quarterly Sales") 
+```
