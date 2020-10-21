@@ -1,0 +1,27 @@
+Response #,Industry choice 1,Industry choice 2,Industry Choice 3
+1,"Tech, Media & Telecom",Energy,Healthcare
+2,"Tech, Media & Telecom",Energy,Healthcare
+3,Finance,"Tech, Media & Telecom",
+4,Aerospace,"Tech, Media & Telecom",Finance
+5,Anything,,
+6,Aerospace,Auto,Energy
+7,Aerospace,Auto,Energy
+8,Aerospace,Energy,
+9,Finance,Healthcare,Auto
+10,Finance,Consumer Goods,Manufacturing
+11,"Tech, Media & Telecom",Energy,Healthcare
+12,"Tech, Media & Telecom",Healthcare,Materials
+13,Auto,"Tech, Media & Telecom",Finance
+14,Auto,,
+15,"Tech, Media & Telecom",O&G,FIG
+16,"Tech, Media & Telecom",O&G,FIG
+17,"Tech, Media & Telecom",,
+18,Finance,,
+19,Auto,,
+20,Auto,,
+21,Energy,Real Estate,Metals and Mining
+22,Energy,Finance,"Tech, Media & Telecom"
+23,"Tech, Media & Telecom",Airline,Food and Beverages
+24,Auto,,
+25,Healthcare,"Tech, Media & Telecom",
+26,"Tech, Media & Telecom",Healthcare,Energy
